@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#content,#sidebar,#copyright {
+    font-family: Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#content h1,#content h2,#content h3,#content h4 {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+
+#container {
+    width: 980px;
+    margin: 20px auto 20px auto;
+}
+
+
+#topbar {
+    width: 980px;
+    height: 300px;
+    background: url(field.jpg) 0px -145px no-repeat;
+}
+
+#topbar h1 {
+    width: 980px;
+    height: 300px;
+    background: url(logo.png) -40px 130px no-repeat;
+}
+
+#topbar h1 span {
+    display: none;
+}
+
+#contentcontainer {
+    margin: 40px 0 0 0;
+}
+
+#content {
+    float: left;
+    width: 640px;
+}
+
+#content h1 {
+    font-size: 1.75em;
+    font-weight: normal;
+}
+
+#content h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: 35px 0 0 0;
+}
+
+#content h3 {
+    font-size: 1.25em;
+    font-weight: normal;
+    margin: 20px 0 0 0;
+}
+
+#content h4 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin: 15px 0 0 0;
+}
+
+
+#content p,#content blockquote,#content table,#content ul {
+    margin: 0 0 15px 0;
+}
+
+#content ul {
+    margin-left: 40px;
+}
+
+#content blockquote {
+    border-left: 20px solid #e0e2be;
+    padding-left: 10px;
+}
+
+#content .quotation,#content .quotationby {
+    font-style: italic;
+    margin-left: 30px;
+}
+
+#content .quotationby {
+    margin-left: 50px;
+}
+
+#content img {
+    float: left;
+    margin: 20px 30px 20px 0;
+}
+
+#sidebar {
+    float: right;
+    width: 270px;
+}
+
+#sidebar ul {
+    list-style: none;
+}
+
+#sidebar li a {
+    display: block;
+    background: #d7bf78;
+    padding: 5px 10px 5px 10px;
+    margin: 0 0 5px 0;
+    text-decoration: none;
+    color: #000000;
+    text-align: right;
+}
+
+#sidebar li:nth-child(even) a {
+    background: #d0bb93;
+}
+
+#contactinfo {
+    margin: 40px 10px 0 10px;
+}
+
+#contactinfo p {
+    margin: 0 0 10px 0;
+    text-align: right;
+}
+
+.clearer {
+    clear: both;
+}
+
+#copyright {
+    margin: 40px 0 20px 0;
+}
+
+#copyright p {
+    font-size: 0.8em;
+    text-align: right;
+}
+
+#copyright a {
+    color: inherit;
+}
